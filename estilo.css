@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+html, body {
+    margin: 0;
+    background: #d9cbda;
+}
+header {
+    background-color: #A0522D;
+    color: white;
+    height: 64px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo {
+    width: 5%;
+    position: absolute;
+    margin-left: 5%;
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    font-size: 120%;
+    margin-top: 0px;
+}
+li {
+    float: left;
+    padding: 20 10 20 10;
+}
+li:hover {
+    background-color: #DEB887;
+}
+#telaprincipal {
+    background: url("imagens/pexels-anna-shvets-4672717.jpg");
+    background-position: center;
+    height: 100%;
+    text-align: center;
+}
+#titulo_central {
+    color: #363636;
+    padding-top: 9%;
+    padding-right: 10%;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px gray;
+}
+#subtitulo {
+    padding-left: 20%;
+    padding-top: 8%;
+    color: #1C1C1C;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#botao {
+    text-decoration: none;
+    color: #A0522D;
+    border: 1px #A0522D solid;
+    padding: 10px 20px 10px 20px;
+}
+.icone {
+    width: 60px;
+}
+.botaodasessao {
+    text-decoration: none;
+    color: #A0522D;
+    border: 1px #A0522D solid;
+    border-radius: 10%;
+    padding: 10px 20px 10px 20px;
+}
+.botaodasessao:hover {
+    background-color: #DEB887;
+}
+section {
+    padding: 20px;
+    float: left;
+}
+.destaque {
+    background-color:#cfc4d0;
+}
+.imagemulheres {
+    width: 50%;
+    height: 35%;
+}
+#finalcoluna3 {
+    font-size: 30px;
+}
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois {
+    width: 40%;
+}
+.quatro {
+    width: 23%;
+}
+.cinco {
+    width: 23%;
+}
+.justificado {
+    text-align: justify;
+    font-family: 'Roboto Slab', serif;
+}
+.centralizado {
+    text-align: center;
+    font-size: 70px;
+}
+.menor {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+#fotokay {
+    width: 50%;
+}
+footer {
+    background-color: #A0522D;
+    float: left;
+    width: 100%;
+}
+@media all and (max-width: 768px) {
+    #menu {
+        visibility: hidden;
+    }
+    .coluna, .dois, .quatro, .cinco {
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    #logodiv {
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    #logo {
+        margin-left: 0px;
+        transform: translateX(-50%);
+        width: 100px;
+    }
+}
